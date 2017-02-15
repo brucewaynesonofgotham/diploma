@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc82b7d9-16ec-46c7-ba33-2578c1bb3e85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace" afterPath="$PROJECT_DIR$/ace" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds" afterPath="$PROJECT_DIR$/ace-builds" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds/src-min-noconflict/snippets/ruby.js" afterPath="$PROJECT_DIR$/ace-builds/src-min-noconflict/snippets/ruby.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds/src-min/snippets/ruby.js" afterPath="$PROJECT_DIR$/ace-builds/src-min/snippets/ruby.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds/src-noconflict/snippets/ruby.js" afterPath="$PROJECT_DIR$/ace-builds/src-noconflict/snippets/ruby.js" />
@@ -307,15 +308,15 @@
       <workItem from="1486749727516" duration="7976000" />
       <workItem from="1486859912483" duration="9050000" />
       <workItem from="1486945029061" duration="1652000" />
-      <workItem from="1487063761222" duration="16232000" />
+      <workItem from="1487063761222" duration="16684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42152000" />
+    <option name="totallyTimeSpent" value="42604000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1601" height="860" extended-state="0" />
+    <frame x="0" y="0" width="1601" height="860" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
