@@ -1,4 +1,4 @@
-var editor = ace.edit("editor1");
+var editor = ace.edit("editor");
 editor.setTheme("ace/theme/monokai");
 editor.getSession().setMode("ace/mode/css");
 var iframe = document.querySelector('iframe');
@@ -6,5 +6,6 @@ var doc = iframe.contentDocument ||
     iframe.contentWindow.document;
 editor.getSession().on('change', function() {
     // Вывод содержимого редактора в iframe
-    doc.body.innerHTML = editor.getValue();
+    doc.head.innerHTML = editor.getValue();
 });
+editor.setValue("function a(b,c){\n\t//тело функции\n}");
