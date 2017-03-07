@@ -9,4 +9,4 @@ editor.getSession().on('change', function() {
     // Вывод содержимого редактора в iframe
     doc.body.innerHTML = editor.getValue();
 });
-editor.setValue("function a(b,c){\n\t//тело функции\n}");
+editor.setValue("<!DOCTYPE html>\n<html>\n\t<head>\n\t</head>\n\t<body>\n\t\t<p>Привет, рукожоп! Давай научимся верстать вместе!</p>\n\t</body>\n</html>");

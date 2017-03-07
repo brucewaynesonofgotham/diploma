@@ -8,4 +8,3 @@ editor.getSession().on('change', function() {
     // Вывод содержимого редактора в iframe
     doc.head.innerHTML = editor.getValue();
 });
-editor.setValue("function a(b,c){\n\t//тело функции\n}");
