@@ -1,10 +1,9 @@
-var editor = ace.edit("editor");
+var editor = ace.edit("editor1");
 editor.setTheme("ace/theme/monokai");
-editor.getSession().setMode("ace/mode/css");
+editor.getSession().setMode("ace/mode/html");
 var iframe = document.querySelector('iframe');
-var doc = iframe.contentDocument ||
-    iframe.contentWindow.document;
+var doc = iframe.contentWindow.document;
 editor.getSession().on('change', function() {
     // Вывод содержимого редактора в iframe
-    doc.head.innerHTML = editor.getValue();
+    doc.body.innerHTML = editor.getValue();
 });
