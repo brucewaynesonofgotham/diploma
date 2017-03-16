@@ -68,7 +68,6 @@ footer { background-color: #263463; min-height:350px; font-family: 'Open Sans', 
 
 
 .well-position{
-    margin-top:250px;
     height:150px;
 }
 
@@ -77,3 +76,8 @@ footer { background-color: #263463; min-height:350px; font-family: 'Open Sans', 
     z-index: 2;
 }
 
+iframe {
+    height: 420px;
+    width: 100%;
+    border: none;
+}
