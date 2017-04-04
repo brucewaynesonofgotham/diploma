@@ -12,5 +12,4 @@ function acejs() {
         "Давай научимся верстать вместе!</p>\n\t\t<img src='http://orig03.deviantart.net/11e8/f/2007/035/6/b/batman___black_and_white_by_nafasmotor.jpg'> " +
         "\n\t</body>\n</html>");
 }
-
 acejs();

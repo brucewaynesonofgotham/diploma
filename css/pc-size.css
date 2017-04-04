@@ -1,0 +1,10 @@
+#pcDemo .modal-dialog {
+    width: 1500px;
+    margin: 30px auto;
+}
+#pcDemo .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    width: 1500px;
+}
+
