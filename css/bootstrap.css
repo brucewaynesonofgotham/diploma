@@ -3172,26 +3172,30 @@ fieldset[disabled] .btn-primary.focus {
 }
 .btn-success {
   color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #263463;
+  border-color: #263463;
+  box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.2);
 }
 .btn-success:focus,
 .btn-success.focus {
   color: #fff;
-  background-color: #449d44;
-  border-color: #255625;
+  background-color: #3c559d;
+  border-color: #3c559d;
+  box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.2);
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #449d44;
-  border-color: #398439;
+  background-color: #3c559d;
+  border-color: #3c559d;
+  box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.2);
 }
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   color: #fff;
-  background-color: #449d44;
-  border-color: #398439;
+  background-color: #3c559d;
+  border-color: #3c559d;
+  box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.2);
 }
 .btn-success:active:hover,
 .btn-success.active:hover,
@@ -3203,8 +3207,8 @@ fieldset[disabled] .btn-primary.focus {
 .btn-success.active.focus,
 .open > .dropdown-toggle.btn-success.focus {
   color: #fff;
-  background-color: #398439;
-  border-color: #255625;
+  background-color: #324280;
+  border-color: #324280;
 }
 .btn-success:active,
 .btn-success.active,
@@ -3222,33 +3226,35 @@ fieldset[disabled] .btn-success:focus,
 fieldset[disabled] .btn-success.focus {
   background-color: #5cb85c;
   border-color: #4cae4c;
+  box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.2);
 }
 .btn-success .badge {
   color: #5cb85c;
   background-color: #fff;
+  box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.2);
 }
 .btn-info {
   color: #fff;
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #3d443d;
+  border-color: #3d443d;
 }
 .btn-info:focus,
 .btn-info.focus {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #1b6d85;
+  background-color: #899789;
+  border-color: #899789;
 }
 .btn-info:hover {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #269abc;
+  background-color: #899789;
+  border-color: #899789;
 }
 .btn-info:active,
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #269abc;
+  background-color: #738173;
+  border-color: #738173;
 }
 .btn-info:active:hover,
 .btn-info.active:hover,
@@ -3260,8 +3266,8 @@ fieldset[disabled] .btn-success.focus {
 .btn-info.active.focus,
 .open > .dropdown-toggle.btn-info.focus {
   color: #fff;
-  background-color: #269abc;
-  border-color: #1b6d85;
+  background-color: #738173;
+  border-color: #738173;
 }
 .btn-info:active,
 .btn-info.active,
@@ -3277,11 +3283,11 @@ fieldset[disabled] .btn-info:focus,
 .btn-info.disabled.focus,
 .btn-info[disabled].focus,
 fieldset[disabled] .btn-info.focus {
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #738173;
+  border-color: #738173;
 }
 .btn-info .badge {
-  color: #5bc0de;
+  color: #738173;
   background-color: #fff;
 }
 .btn-warning {
@@ -4589,8 +4595,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
-  border-color: #080808;
+  background-color: #263463;
+  border-color: #263463;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
@@ -4615,7 +4621,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: #3c559d;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -4635,13 +4641,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #101010;
+  border-color: #3c559d;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: #3c559d;
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {

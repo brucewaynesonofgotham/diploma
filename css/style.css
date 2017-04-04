@@ -47,7 +47,8 @@ footer { background-color: #263463; min-height:350px; font-family: 'Open Sans', 
     left: 0;
     z-index: 1;
     height:320px;
-    border: 5px solid #263463;
+    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(191, 191, 191, 0.25);
 }
 
 #editor1 {
@@ -57,12 +58,13 @@ footer { background-color: #263463; min-height:350px; font-family: 'Open Sans', 
     left: 0;
     z-index: 1;
     height:320px;
-    border: 5px solid #263463;;
+    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(191, 191, 191, 0.25);
 }
 
 .browser {
-
-    border: 5px solid #263463;;
+    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(191, 191, 191, 0.25);
 }
 
 
@@ -80,4 +82,15 @@ iframe {
     height: 420px;
     width: 100%;
     border: none;
+    background-color: #ffffff;
 }
+
+#mocha-stats{
+    display: none;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+
