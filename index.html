@@ -85,9 +85,17 @@
                 <div class="well well-position" style="margin-bottom: 0px">Здесь будут располагаться индикаторы прогресса заданий</div>
             </div>
         </div>
-        <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal" style="margin-top: 20px"><i class="fa fa-bookmark" aria-hidden="true"></i> Теория</button>
+
         <button type="button" class="btn btn-success btn-md pull-right"  style="margin-top: 20px">Следующее задание</button>
-        <button type="button" class="btn btn-success btn-md pull-right"  style="margin-top: 20px">Демо</button>
+        <div class="btn-group dropup">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal" style="margin-top: 20px"><i class="fa fa-bookmark" aria-hidden="true"></i> Теория</button>
+            <button type="button" class="btn btn-success btn-md pull-right dropup-toggle" data-toggle="dropdown"  style="margin-top: 20px" >Демо <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#" data-toggle="modal" data-target="#pcDemo"><i style="position: relative; right: 2px;" class="fa fa-desktop" aria-hidden="true"></i>PC size</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#ipadDemo"><i class="fa fa-tablet" aria-hidden="true"></i> IPad size</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#iphoneDemo"><i style="position: relative; left: 1px;" class="fa fa-mobile" aria-hidden="true"></i> IPhone size</a></li>
+            </ul>
+        </div>
         <!--Модальное окно-->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
@@ -98,6 +106,57 @@
                     </div>
                     <div class="modal-body">
                         Какая теория?! D: Гугли, инвалид!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Скрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--PC size demo-->
+        <div class="modal fade" id="pcDemo" tabindex="-1" role="dialog" aria-labelledby="pcDemoLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="pcDemoLabel"><i class="fa fa-desktop" aria-hidden="true"></i> PC size</h4>
+                    </div>
+                    <div class="modal-body">
+                        <iframe id="pcIframe"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Скрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--IPad size demo-->
+        <div class="modal fade" id="ipadDemo" tabindex="-1" role="dialog" aria-labelledby="ipadDemoLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="ipadDemoLabel"><i class="fa fa-tablet" aria-hidden="true"></i> IPad size</h4>
+                    </div>
+                    <div class="modal-body">
+                        <iframe id="ipadIframe"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Скрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--IPhone size demo-->
+        <div class="modal fade" id="iphoneDemo" tabindex="-1" role="dialog" aria-labelledby="ipadDemoLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="iphoneDemoLabel"><i class="fa fa-mobile" aria-hidden="true"></i> IPhone size</h4>
+                    </div>
+                    <div class="modal-body">
+                        <iframe id="iphoneIframe"></iframe>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Скрыть</button>
