@@ -75,7 +75,18 @@ body{
 .well-position{
     height:150px;
 }
+.well-position button {
+    display: block;
+    margin-top:10px;
+}
 
+.well-position p {
+    position: relative;
+    bottom:20px;
+    left:60px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
 .editor-label{
     position: absolute;
     z-index: 2;
