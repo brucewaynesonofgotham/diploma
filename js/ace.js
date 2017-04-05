@@ -17,9 +17,9 @@ function acejs() {
         docIpad.body.innerHTML = editor.getValue();
         docPc.body.innerHTML = editor.getValue();
     });
-    editor.setValue("<!DOCTYPE html>\n<html>\n\t<head>\n\t</head>\n\t<body>\n\t\t<p>Привет, рукожоп! " +
-        "Давай научимся верстать вместе!</p>\n\t\t<img src='http://orig03.deviantart.net/11e8/f/2007/035/6/b/batman___black_and_white_by_nafasmotor.jpg'> " +
-        "\n\t</body>\n</html>");
+    editor.setValue('<!DOCTYPE html><html>\n\t<head>\n\t</head>\n\t<body>\n\t\t<picture>\n\t\t\t<source srcset="/images/400.jpg" media="(max-width: 500px)">' +
+        '\n\t\t\t<source srcset="/images/800.jpg" media="(max-width: 900px)">\n\t\t\t<source srcset="/images/1200.jpg">' +
+        '\n\t\t\t<img srcset="/images/400.jpg" alt="My default image">\n\t\t</picture>\n\t</body>\n</html>');
 }
 acejs();
 
