@@ -22,3 +22,22 @@ function acejs() {
         "\n\t</body>\n</html>");
 }
 acejs();
+
+/*
+<img
+src="https://image.ibb.co/gsqeiv/400.jpg"
+srcset=" 400w, https://image.ibb.co/g4dRVa/800.jpg 800w, https://image.ibb.co/c5DtAa/1200.jpg 1200w"
+sizes="(min-width: 700px) 75vw, 100vw"
+    >*/
+/*
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>Привет, рукожоп! Давай научимся верстать вместе!</p>
+<img src="https://image.ibb.co/gsqeiv/400.jpg"
+srcset="400w, https://image.ibb.co/g4dRVa/800.jpg 800w, https://image.ibb.co/c5DtAa/1200.jpg 1200w"
+sizes="(min-width: 400px) 100vw, (min-width: 800px) 100vw, (min-width: 1200px) 100vw, 100vw">
+    </body>
+    </html>*/
