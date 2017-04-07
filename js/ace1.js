@@ -1,6 +1,5 @@
 function acejs1() {
     var editor = ace.edit("editor1");
-    editor.setTheme("ace/theme/monokai");
     editor.getSession().setMode("ace/mode/css");
     var iframe = document.querySelector('iframe');
     var doc = iframe.contentWindow.document;

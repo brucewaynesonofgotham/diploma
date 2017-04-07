@@ -79,17 +79,12 @@
 <div class="container" style="margin-bottom: 20px">
     <div class="row">
         <div class="col-md-6">
-            <div class="col-md-12">
-                <a href="#" class="btn btn-primary btn-sm disabled pull-right editor-label" style="background-color: #263463; border-color: #263463;" role="button">HTML</a>
-                <div id="editor">
+            <a href="#" class="btn btn-primary btn-sm disabled pull-right editor-label" style="background-color: #263463; border-color: #263463;" role="button">HTML</a>
+            <div id="editor">
 
-                </div>
-                <hr>
             </div>
-            <div class="col-md-12">
-                <a href="#" class="btn btn-primary btn-sm disabled pull-right editor-label" style="background-color: #263463; border-color: #263463;" role="button">CSS</a>
-                <div id="editor1">
-                </div>
+            <div id="editor1">
+
             </div>
         </div>
         <div class="col-md-6 browser">
@@ -98,7 +93,9 @@
                     <li role="presentation" class="active"><a href="#">Первое задание</a></li>
                 </ul>
                 <iframe></iframe>
-                <div class="well well-position" style="margin-bottom: 0px">
+            </div>
+            <div class="row">
+                <div class="well well-position">
                     <button id="first-task" type="button" class="btn btn-xs btn-info" disabled="disabled">1 цель</button>
                     <p>
                         Для первого тэга <code>&lt;source&gt;</code> добавьте аттрибут <code>media</code> со значением
@@ -109,20 +106,14 @@
                         Выполнить аналогичные действия для остальных <code>&lt;source&gt;</code>, используя значения <code>"(max-width: 900px)"</code>
                         <code>"(max-width: 1600px)"</code>
                     </p>
-
                 </div>
             </div>
-        </div>
-
-        <button type="button" class="btn btn-success btn-md pull-right"  style="margin-top: 20px">Следующее задание</button>
-        <div class="btn-group dropup">
-            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal" style="margin-top: 20px"><i class="fa fa-bookmark" aria-hidden="true"></i> Теория</button>
-            <button type="button" class="btn btn-success btn-md pull-right dropup-toggle" data-toggle="dropdown"  style="margin-top: 20px" >Демо <span class="caret"></span></button>
-            <ul class="dropdown-menu" role="menu">
-                <li><a href="#" data-toggle="modal" data-target="#pcDemo"><i style="position: relative; right: 2px;" class="fa fa-desktop" aria-hidden="true"></i>&nbsp;PC size</a></li>
-                <li><a href="#" data-toggle="modal" data-target="#ipadDemo"><i class="fa fa-tablet" aria-hidden="true"></i>&nbsp;&nbsp;Tablet size</a></li>
-                <li><a href="#" data-toggle="modal" data-target="#iphoneDemo"><i style="position: relative; left: 1px;" class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Mobile size</a></li>
-            </ul>
+            <div class="row">
+                <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal"><i class="fa fa-bookmark" aria-hidden="true"></i> Теория</button>
+                <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#settings"><i class="fa fa-cog" aria-hidden="true"></i> Настройки</button>
+                <button type="button" class="btn btn-success btn-md pull-right">Следующее задание</button>
+                <button type="button" class="btn btn-info btn-md pull-right" onclick="retina()">Ретина</button>
+            </div>
         </div>
         <!--Модальное окно-->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -142,7 +133,6 @@
                             <li>Добавьте атрибут <code>srcset</code> с соответствующим именем  изображения для загрузки.</li>
                             <li>Добавьте дополнительные имена файлов в атрибут <code>srcset</code>, если вы хотите указать дескрипторы плотности пикселей для корректного отображения ретинных дисплеев</li>
                         </ol>
-
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Скрыть</button>
@@ -150,50 +140,61 @@
                 </div>
             </div>
         </div>
-        <!--PC size demo-->
-        <div class="modal fade" id="pcDemo" tabindex="-1" role="dialog" aria-labelledby="pcDemoLabel">
+        <!--Окно настройки-->
+        <div class="modal fade" id="settings" tabindex="-1" role="dialog" aria-labelledby="settingsLabel">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="pcDemoLabel"><i class="fa fa-desktop" aria-hidden="true"></i> PC size</h4>
+                        <h4 class="modal-title" id="settingsLabel"><i class="fa fa-cog" aria-hidden="true"></i> Настройки</h4>
                     </div>
                     <div class="modal-body">
-                        <iframe id="pcIframe"></iframe>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Скрыть</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--IPad size demo-->
-        <div class="modal fade" id="ipadDemo" tabindex="-1" role="dialog" aria-labelledby="ipadDemoLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="ipadDemoLabel"><i class="fa fa-tablet" aria-hidden="true"></i> Tablet size</h4>
-                    </div>
-                    <div class="modal-body">
-                        <iframe id="ipadIframe"></iframe>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Скрыть</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--IPhone size demo-->
-        <div class="modal fade" id="iphoneDemo" tabindex="-1" role="dialog" aria-labelledby="ipadDemoLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="iphoneDemoLabel"><i class="fa fa-mobile" aria-hidden="true"></i> Mobile size</h4>
-                    </div>
-                    <div class="modal-body">
-                        <iframe id="iphoneIframe"></iframe>
+                        <div class="col-md-6">
+                            <fieldset class="form-group">
+                                <h2>Viewport</h2>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                        1
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                        2
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
+                                        3
+                                    </label>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-md-6">
+                            <fieldset class="form-group">
+                                <h2>Retina</h2>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios4" value="option1" checked>
+                                        1
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios5" value="option2">
+                                        2
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios6" value="option3">
+                                        3
+                                    </label>
+                                </div>
+                            </fieldset>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Скрыть</button>
@@ -273,5 +274,6 @@
 <script src="https://cdn.jsdelivr.net/g/ace@1.2.3(min/ace.js+min/ext-emmet.js+min/mode-html.js)" charset="UTF-8" type="text/javascript"></script>
 <script src="js/ace1.js" type="text/javascript"></script>
 <script src="js/ace.js" type="text/javascript"></script>
+<script src="js/retina.js"></script>
 </body>
 </html>
