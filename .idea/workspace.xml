@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d6b8177-ee57-408e-8bf1-00cd16b7d532" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/retina.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace" afterPath="$PROJECT_DIR$/ace" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds" afterPath="$PROJECT_DIR$/ace-builds" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds/src-min-noconflict/snippets/ruby.js" afterPath="$PROJECT_DIR$/ace-builds/src-min-noconflict/snippets/ruby.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds/src-min/snippets/ruby.js" afterPath="$PROJECT_DIR$/ace-builds/src-min/snippets/ruby.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds/src-noconflict/snippets/ruby.js" afterPath="$PROJECT_DIR$/ace-builds/src-noconflict/snippets/ruby.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds/src/snippets/ruby.js" afterPath="$PROJECT_DIR$/ace-builds/src/snippets/ruby.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds/textarea/src/ace-bookmarklet.js" afterPath="$PROJECT_DIR$/ace-builds/textarea/src/ace-bookmarklet.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace/demo/kitchen-sink/docs/haml.haml" afterPath="$PROJECT_DIR$/ace/demo/kitchen-sink/docs/haml.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ace.js" afterPath="$PROJECT_DIR$/js/ace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ace1.js" afterPath="$PROJECT_DIR$/js/ace1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/retina.js" afterPath="$PROJECT_DIR$/js/retina.js" />
     </list>
     <ignored path="diploma.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +31,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -49,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="retina.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="retina.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/retina.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+            <state relative-caret-position="1105">
+              <caret line="65" column="58" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -62,8 +57,8 @@
       <file leaf-file-name="ace.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -155,8 +150,8 @@
         <option value="$PROJECT_DIR$/js/ace.js" />
         <option value="$PROJECT_DIR$/js/ace1.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/js/retina.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/retina.js" />
       </list>
     </option>
   </component>
@@ -353,12 +348,12 @@
       <workItem from="1491186386411" duration="1630000" />
       <workItem from="1491249562658" duration="20265000" />
       <workItem from="1491334555931" duration="9331000" />
-      <workItem from="1491451313824" duration="12804000" />
+      <workItem from="1491451313824" duration="13556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55748000" />
+    <option name="totallyTimeSpent" value="56500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1" width="1600" height="858" extended-state="0" />
@@ -789,14 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -821,14 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/retina.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -837,6 +816,22 @@
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/retina.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="58" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>

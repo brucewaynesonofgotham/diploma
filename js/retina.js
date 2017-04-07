@@ -1,5 +1,7 @@
-function retina() {
 
+function retina() {
+    var iframe = document.querySelector('iframe');
+    var doc = iframe.contentWindow.document;
     (function (window, location) {
 
         function upperCaseFirst(str) {
@@ -13,7 +15,7 @@ function retina() {
         var getVendorPrefix = function () {
             var prefix = "";
             var testStyle = "Transform";
-            var bodyStyle = document.body.style;
+            var bodyStyle = doc.body.style;
 
             for (var i = 0, l = prefixes.length; i < l; i++) {
                 if (bodyStyle[prefixes[i] + testStyle] !== void 0) {
@@ -36,7 +38,7 @@ function retina() {
 
         function toggleRetinaEmulation() {
             var prefix = getVendorPrefix();
-            var bodyStyle = document.body.style;
+            var bodyStyle = doc.body.style;
             var styles;
             var prefixedKey;
 
@@ -65,7 +67,7 @@ function retina() {
         }
 
         var handle = setInterval(function () {
-            if (document.body) {
+            if (doc.body) {
                 clearInterval(handle);
                 toggleRetinaEmulation();
             }
