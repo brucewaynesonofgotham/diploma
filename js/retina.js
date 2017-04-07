@@ -1,4 +1,3 @@
-
 function retina() {
     var iframe = document.querySelector('iframe');
     var doc = iframe.contentWindow.document;
@@ -26,7 +25,10 @@ function retina() {
             return prefix;
         };
 
-        var retinaStyles = {
+        /*var retinaStyles = retinaChoice;
+
+*/
+        var retinaStyles ={
             "transform": "scale(2)",
             "transformOrigin": "0 0"
         };
@@ -75,3 +77,34 @@ function retina() {
 
     })(window, location);
 }
+/*var retinaChoice ={
+    "transform": "scale(2)",
+    "transformOrigin": "0 0"
+};
+
+function changeScale() {
+    if (radio1.checked) {
+        retinaChoice = {
+            "transform": "scale(1)",
+            "transformOrigin": "0 0"
+        }
+    }else if (radio2.checked){
+        retinaChoice = {
+            "transform": "scale(2)",
+            "transformOrigin": "0 0"
+        }
+    }else if (radio3.checked) {
+        retinaChoice = {
+            "transform": "scale(3)",
+            "transformOrigin": "0 0"
+        }
+    }
+}
+
+$("#optionsRadios1").on("click", alert('1'));
+$("#optionsRadios2").on("click", changeScale());
+$("#optionsRadios3").on("click", changeScale());
+
+var radio1 = document.getElementById('optionsRadios1');
+var radio2 = document.getElementById('optionsRadios2');
+var radio3 = document.getElementById('optionsRadios3');*/
