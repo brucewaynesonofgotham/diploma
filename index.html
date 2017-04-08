@@ -97,7 +97,6 @@
                 <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal"><i class="fa fa-bookmark" aria-hidden="true"></i> Теория</button>
                 <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#settings"><i class="fa fa-cog" aria-hidden="true"></i> Настройки</button>
                 <button type="button" class="btn btn-success btn-md pull-right">Следующее задание</button>
-                <button type="button" class="btn btn-info btn-md pull-right" onclick="retina()">Ретина</button>
             </div>
         </div>
         <!--Модальное окно-->
@@ -134,32 +133,29 @@
                         <h4 class="modal-title" id="settingsLabel"><i class="fa fa-cog" aria-hidden="true"></i> Настройки</h4>
                     </div>
                     <div class="modal-body">
-                        <div class="col-md-6">
-                            <fieldset class="form-group">
-                                <h2>Retina</h2>
+                            <fieldset class="form-group retina-choice-div">
+                                <h2>Ретина</h2>
                                 <div class="form-check">
                                     <label class="form-check-label">
                                         <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" onclick="changeScale()">
-                                        1
+                                        Неретиновый дисплей
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <label class="form-check-label">
                                         <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2" onclick="changeScale()">
-                                        2
+                                        2x
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <label class="form-check-label">
                                         <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" onclick="changeScale()">
-                                        3
+                                        3x
                                     </label>
                                 </div>
                             </fieldset>
-                        </div>
-                        <div class="col-md-6">
-                            <fieldset class="form-group">
-                                <h2>Viewport</h2>
+                            <fieldset class="form-group viewport-choice-div">
+                                <h2>Ширина экрана</h2>
                                 <div class="form-check">
                                     <label class="form-check-label">
                                         <input type="radio" class="form-check-input" name="optionsRadios1" id="optionsRadios4" value="option1">
@@ -179,9 +175,9 @@
                                     </label>
                                 </div>
                             </fieldset>
-                        </div>
                     </div>
                     <div class="modal-footer">
+                        <button type="button" class="btn btn-info btn-md" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="retina()">ON/OFF</button>
                         <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Скрыть</button>
                     </div>
                 </div>

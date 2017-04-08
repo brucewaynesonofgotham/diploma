@@ -97,6 +97,14 @@ iframe {
     background-color: #ffffff;
 }
 
+.viewport-choice-div,
+.retina-choice-div{
+    display: inline-block;
+}
+
+.viewport-choice-div{
+    float: right;
+}
 
 
 

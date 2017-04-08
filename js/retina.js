@@ -25,13 +25,12 @@ function retina() {
             return prefix;
         };
 
-        /*var retinaStyles = retinaChoice;
+        var retinaStyles = retinaChoice;
 
-*/
-        var retinaStyles ={
+        /*var retinaStyles ={
             "transform": "scale(2)",
             "transformOrigin": "0 0"
-        };
+        };*/
 
         var nonRetinaStyles = {
             "transform": "",
@@ -77,7 +76,7 @@ function retina() {
 
     })(window, location);
 }
-/*var retinaChoice ={
+var retinaChoice ={
     "transform": "scale(2)",
     "transformOrigin": "0 0"
 };
@@ -101,10 +100,7 @@ function changeScale() {
     }
 }
 
-$("#optionsRadios1").on("click", alert('1'));
-$("#optionsRadios2").on("click", changeScale());
-$("#optionsRadios3").on("click", changeScale());
 
 var radio1 = document.getElementById('optionsRadios1');
 var radio2 = document.getElementById('optionsRadios2');
-var radio3 = document.getElementById('optionsRadios3');*/
+var radio3 = document.getElementById('optionsRadios3');
