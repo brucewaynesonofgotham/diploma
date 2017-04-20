@@ -62,8 +62,8 @@
 </div>
 <!--Тело-->
 <div class="container" style="margin-bottom: 20px">
-    <div class="row">
-        <div class="col-md-6">
+    <div class="row" id="main-row">
+        <div class="col-md-4" id="place-for-ace">
             <a href="#" class="btn btn-primary btn-sm disabled pull-right editor-label" style="background-color: #263463; border-color: #263463;" role="button">HTML</a>
             <div id="editor">
 
@@ -72,7 +72,7 @@
 
             </div>
         </div>
-        <div class="col-md-6 browser">
+        <div class="col-md-8 browser" id="browser">
             <div class="row">
                 <ul class="nav nav-tabs">
                     <li role="presentation" class="active"><a href="#">Первое задание</a></li>
@@ -137,19 +137,19 @@
                                 <h2>Ретина</h2>
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" onclick="changeScale()">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
                                         Неретиновый дисплей
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2" onclick="changeScale()">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
                                         2x
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" onclick="changeScale()">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
                                         3x
                                     </label>
                                 </div>
@@ -159,25 +159,25 @@
                                 <div class="form-check">
                                     <label class="form-check-label">
                                         <input type="radio" class="form-check-input" name="optionsRadios1" id="optionsRadios4" value="option1">
-                                        1
+                                        400px
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="optionsRadios1" id="optionsRadios5" value="option2">
-                                        2
+                                        <input type="radio" class="form-check-input" name="optionsRadios1" id="optionsRadios5" value="option2" checked>
+                                        800px (Стандартное значение)
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <label class="form-check-label">
                                         <input type="radio" class="form-check-input" name="optionsRadios1" id="optionsRadios6" value="option3">
-                                        3
+                                        1200px
                                     </label>
                                 </div>
                             </fieldset>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-info btn-md" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="retina()">ON/OFF</button>
+                        <button type="button" id="on-off" class="btn btn-info btn-md" data-toggle="button" aria-pressed="false" autocomplete="off">ON/OFF</button>
                         <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Скрыть</button>
                     </div>
                 </div>
