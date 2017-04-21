@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d6b8177-ee57-408e-8bf1-00cd16b7d532" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bw_rus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bw_rus_190x65.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-3.2.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace" afterPath="$PROJECT_DIR$/ace" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds" afterPath="$PROJECT_DIR$/ace-builds" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/123.png" afterPath="$PROJECT_DIR$/images/123.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds/src-min-noconflict/snippets/ruby.js" afterPath="$PROJECT_DIR$/ace-builds/src-min-noconflict/snippets/ruby.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds/src-min/snippets/ruby.js" afterPath="$PROJECT_DIR$/ace-builds/src-min/snippets/ruby.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds/src-noconflict/snippets/ruby.js" afterPath="$PROJECT_DIR$/ace-builds/src-noconflict/snippets/ruby.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds/src/snippets/ruby.js" afterPath="$PROJECT_DIR$/ace-builds/src/snippets/ruby.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace-builds/textarea/src/ace-bookmarklet.js" afterPath="$PROJECT_DIR$/ace-builds/textarea/src/ace-bookmarklet.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ace/demo/kitchen-sink/docs/haml.haml" afterPath="$PROJECT_DIR$/ace/demo/kitchen-sink/docs/haml.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ace.js" afterPath="$PROJECT_DIR$/js/ace.js" />
     </list>
     <ignored path="diploma.iws" />
@@ -34,8 +43,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="104" column="43" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="43" />
+            <state relative-caret-position="413">
+              <caret line="252" column="36" selection-start-line="252" selection-start-column="36" selection-end-line="252" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -44,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ace.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ace.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="476">
+              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="5469" column="8" selection-start-line="5469" selection-start-column="2" selection-end-line="5469" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -67,8 +86,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+            <state relative-caret-position="209">
+              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -106,12 +125,12 @@
         <option value="$PROJECT_DIR$/css/ipad-size.css" />
         <option value="$PROJECT_DIR$/css/iphone-size.css" />
         <option value="$PROJECT_DIR$/css/pc-size.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/js/ace1.js" />
         <option value="$PROJECT_DIR$/js/retina.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/ace.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
       </list>
     </option>
   </component>
@@ -143,14 +162,13 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
+      <autoscrollToSource ProjectPane="true" />
       <autoscrollFromSource />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -198,8 +216,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diploma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diploma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,13 +240,18 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yanaapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../merck-results_cards" />
     <property name="add_unversioned_files" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Дамир\WebstormProjects\diploma\js" />
+      <recent name="C:\Users\Дамир\WebstormProjects\diploma\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Дамир\WebstormProjects\diploma\js" />
       <recent name="C:\Users\Дамир\WebstormProjects\diploma\images" />
     </key>
   </component>
@@ -305,12 +343,13 @@
       <workItem from="1492102236776" duration="3376000" />
       <workItem from="1492266431587" duration="1440000" />
       <workItem from="1492552848629" duration="636000" />
-      <workItem from="1492647304510" duration="14020000" />
+      <workItem from="1492647304510" duration="14236000" />
+      <workItem from="1492743937731" duration="8592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89200000" />
+    <option name="totallyTimeSpent" value="98008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1" width="1600" height="858" extended-state="0" />
@@ -352,41 +391,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="153" selection-start-line="11" selection-start-column="153" selection-end-line="11" selection-end-column="153" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ace1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -730,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2363">
-          <caret line="3178" column="4" selection-start-line="3178" selection-start-column="1" selection-end-line="3178" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/ipad-size.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -752,18 +749,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/images/123.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/111.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/112.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-3.2.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="104" column="43" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="43" />
+        <state relative-caret-position="413">
+          <caret line="252" column="36" selection-start-line="252" selection-start-column="36" selection-end-line="252" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -781,8 +793,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ace.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        <state relative-caret-position="476">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="5469" column="8" selection-start-line="5469" selection-start-column="2" selection-end-line="5469" selection-end-column="8" />
           <folding />
         </state>
       </provider>

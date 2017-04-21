@@ -21,11 +21,11 @@ function acejs() {
             '\n\t\t\t<source srcset="/images/800.jpg" media="(max-width: 900px)">\n\t\t\t<source srcset="/images/1200.jpg" media="(max-width: 1600px)">' +
             '\n\t\t\t<source srcset="/images/400.jpg">\n\t\t\t<img srcset="/images/400.jpg" alt="My default image">\n\t\t</picture>\n\t</body>\n</html>') {
             secondTask.style.backgroundColor = 'orange';
-            firstTask.style.borderColor = 'orange';
+            secondTask.style.borderColor = 'orange';
             nextTask.removeAttribute('disabled');
         }
     });
-    editor.setValue('<!DOCTYPE html>\n<html>\n\t<head>\n\t</head>\n\t<body>\n\t\t<picture>\n\t\t\t<source srcset="/images/400.jpg">' +
+    editor.setValue('<!DOCTYPE html>\n<html>\n\t<head>\n\t</head>\n\t<body>\n\t\t<picture>\n\t\t\t<source srcset="/images/400.jpg" media="(max-width: 500px)>' +
         '\n\t\t\t<source srcset="/images/800.jpg">\n\t\t\t<source srcset="/images/1200.jpg">' +
         '\n\t\t\t<source srcset="/images/400.jpg">\n\t\t\t<img srcset="/images/400.jpg" alt="My default image">\n\t\t</picture>\n\t</body>\n</html>');
 }
